@@ -111,8 +111,10 @@
       </div>
     </header>
     <main>
-      <section class="podcast lg:px-20 lg:py-20 px-6 py-4">
-        <div class="px-28 border-b-2 border-gray-400 pb-16">
+      <section
+        class="podcast px-10 sm: px-20 lg:px-28 lg:pt-10 lg:pb-10 px-6 py-4"
+      >
+        <div class="border-b-2 border-gray-400 pb-16">
           <h2 class="text-center text-white text-3xl font-bolder p-2">
             About The podcast
           </h2>
@@ -151,9 +153,9 @@
           </div>
         </div>
       </section>
-      <section class="feature px-20 py-10 mt-5 bg-[#351165]">
+      <section class="feature px-6 lg:px-20 py-10 mt-5 bg-[#351165]">
         <h1
-          class="text-white text-3xl font-extrabold text-center uppercase p-8"
+          class="text-white text-3xl font-extrabold text-center uppercase p-2 lg:p-8"
         >
           why choose techWave
         </h1>
@@ -334,6 +336,98 @@
           </div>
         </div>
       </section>
+      <section class="host px-4 sm:px-8 lg:px-44 py-4">
+        <h1 class="text-3xl font-extrabold text-white text-center p-3">
+          Meet The host
+        </h1>
+        <div
+          class="host-details flex flex-col justify-center items-center sm:flex-row lg:gap-8 sm:gap-6 gap-4 bg-[#533C72] px-6 py-6 sm:px-12 lg:px-16 rounded"
+        >
+          <img src="./assets/host.png" alt="" class="roundedd-full h-48 w-48" />
+          <div class="details sm:mt-6 lg:mt-10">
+            <p class="name text-2xl text-white font-extrabold">Romelo Lukaku</p>
+            <p class="text-gray-400">
+              Tech entrepreneur, productivity expert, and lifelong learner. Alex
+              has been in the tech industry for over 10 years, working with
+              startups and Fortune 500 companies. Through TechWave, Alex shares
+              insights from industry leaders and practical advice for anyone
+              looking to grow in tech.
+            </p>
+            <div class="social-media flex gap-4 py-8">
+              <img
+                src="./assets/instagram.png"
+                alt=""
+                class="border-2 border-gray-400 rounded-full p-2 h-8"
+              />
+              <img
+                src="./assets/linkedin.png"
+                alt=""
+                class="border-2 border-gray-400 rounded-full p-2 h-8"
+              />
+              <img
+                src="./assets/x.png"
+                alt=""
+                class="border-2 border-gray-400 rounded-full p-2 h-8"
+              />
+              <img
+                src="./assets/youtube.png"
+                alt=""
+                class="border-2 border-gray-400 rounded-full p-2 h-8"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer
+      class="bg-[url('/assets/footer-bg.png')] bg-center bg-cover bg-no-repeat py-20"
+    >
+      <div class="text-center lg:px-96">
+        <p class="logo font-bold text-3xl sm:text-4xl text-white">
+          Tech<span
+            class="bg-clip-text text-transparent bg-gradient-to-t from-[#FB09B4] via-purple-500 to-[#9100F8]"
+            >Wave</span
+          >
+        </p>
+
+        <div class="flex flex-wrap justify-center pt-8 pb-4">
+          <div
+            class="flex gap-1 justify-center items-center w-1/2 lg:w-auto lg:px-3 mb-4 lg:mb-0"
+          >
+            <img src="./assets/apple-podcast.png" alt="" class="h-6" />
+            <p class="text-gray-400 capitalize whitespace-nowrap">
+              apple podcast
+            </p>
+          </div>
+
+          <div
+            class="flex gap-1 justify-center items-center w-1/2 lg:w-auto lg:px-3 mb-4 lg:mb-0"
+          >
+            <img src="./assets/spotify.png" alt="" class="h-6" />
+            <p class="text-gray-400 capitalize whitespace-nowrap">spotify</p>
+          </div>
+
+          <div
+            class="flex gap-1 justify-center items-center w-1/2 lg:w-auto lg:px-3 mb-4 lg:mb-0"
+          >
+            <img src="./assets/twitter.png" alt="" class="h-6" />
+            <p class="text-gray-400 capitalize whitespace-nowrap">twitter</p>
+          </div>
+
+          <div
+            class="flex gap-1 justify-center items-center w-1/2 lg:w-auto lg:px-3 mb-4 lg:mb-0"
+          >
+            <img src="./assets/youtube-podcast.png" alt="" class="h-6" />
+            <p class="text-gray-400 capitalize whitespace-nowrap">
+              youtube podcast
+            </p>
+          </div>
+        </div>
+
+        <p class="text-gray-500 text-sm mt-4">
+          &copy; 2026 TechWave. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
